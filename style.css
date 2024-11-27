@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+body {
+  background-color: #000; /* #000 is the hex code for black */
+}
+
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	font-family: sans-serif;
+}
+a {
+	display: block;
+	background:  #008AD8;
+	color:  #FFFFFF;
+	padding: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 320px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 20px;
+}
+a:hover {
+	background:  #00598C;
+}
+.btn-2 {
+	background: #008AD8;
+}
+
+.btn-2:hover {
+	background: #00598C;
+}
+p {
+	color:  #FFFFFF;
+	padding: 15px;
+}
